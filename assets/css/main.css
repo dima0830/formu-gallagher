@@ -1,0 +1,192 @@
+.box-gris{
+			background: #f9f9f9;
+			margin: 50px auto;
+			padding: 80px 0;
+		}
+		/* pills iconos colores ============= */
+		.ulpillsPY {
+			margin: 0;
+			padding: 0;
+			border-bottom: 1px solid #000;
+		}
+		.ulpillsPY li a {
+			text-decoration: none;
+		}
+		.ulpillsPY li a:focus .lnInt, .ulpillsPY li .active .lnInt {
+			opacity: 1;
+		}
+		.lnInt {
+			text-align: center;
+			display: block;
+			width: 80px;
+			height: 6px;
+			margin: 15px auto 0;
+			opacity: 0;
+			transition: 2s;
+		}
+		.box-listpy img{
+			display: block;
+			width: 25%;
+			margin: 20px auto;
+		}
+		.auto:focus img{
+			content: url(../img/auto-03.svg);
+		}
+		.home:focus img{
+			content: url(../img/home-2-03.svg);
+		}
+		.vida:focus img{
+			content: url(../img/user-03.svg);
+		}
+		.lce:focus img{
+			content: url(../img/piloto-2.svg);
+		}
+		.box-listpy {
+			text-align: center;
+			padding: 10px 0 0;
+			margin-bottom: -4px;
+		}
+		.box-listpy p {
+			padding: 2px;
+			margin: 0;
+			font-size: 21px;
+			font-weight: 700;
+			text-align: center;
+			text-decoration: none;
+		}
+		.box-listpy span {
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			font-size: 19px;
+			font-weight: 500;
+			color: #A5A5A5;
+		}
+		.col1 {
+			color: #0c8caa;
+		}
+		.bcol1 {
+			background-color: #0c8caa;
+		}
+		.col2 {
+			color: #f9901c;
+		}
+		.bcol2 {
+			background-color: #f9901c;
+		}
+		.col3 {
+			color: #3e8942;
+		}
+		.bcol3 {
+			background-color: #3e8942;
+		}
+		.col4 {
+			color: #0c215a;
+		}
+		.bcol4 {
+			background-color: #0c215a;
+		}
+
+		.listpills {
+			list-style-image: url(../img/img/proyectos/list-morada.png);
+			margin-left: 30px;
+		}
+		.listpills li {
+			margin-bottom: 20px;
+			padding-left: 20px;
+		}
+		.contepill {
+			padding: 50px;
+			border: 0;
+		}
+		.borderlat3 {
+			border-left: 1px solid #707070;
+			padding-left: 26px;
+		}
+		.intGris1 {
+			color: #8FA1AC;
+		}
+		/* fin pills de colores */
+		/* Programa de Mercadeo y Comercialización */
+		.img1py {
+			position: absolute;
+			top: -59px;
+			left: -100px;
+			z-index: -1;
+			width: 550px;
+		}
+		.img1pypmfh {
+			position: absolute;
+			top: -80px;
+			left: -150px;
+			z-index: -1;
+			width: 550px;
+		}
+		/* Fin estilo titulo superior */
+		form{
+			width: 90%;
+			display: block;
+			margin: 20px auto;
+		}
+		form input, form select{
+			border-radius: 0 !important;
+			color: #034a51;
+		}
+		.box-w{
+			padding: 0 40px;
+			margin: 40px auto;
+			border-left: 2px solid #ddd;
+		}
+		.box-img{
+			width: 100%;
+			height: 300px;
+			overflow: hidden;
+			margin: 40px 0;
+			background-image: url(../img/auto.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.box-img-lce{
+			width: 100%;
+			height: 350px;
+			overflow: hidden;
+			margin: 40px 0;
+			background-image: url(../img/piloto.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.box-img-vida{
+			width: 100%;
+			height: 350px;
+			overflow: hidden;
+			margin: 40px 0;
+			background-image: url(../img/seguros-de-vida.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.box-img-hogar{
+			width: 100%;
+			height: 440px;
+			overflow: hidden;
+			margin: 40px 0;
+			background-image: url(../img/hogar.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.icon {
+			position: fixed;
+			right: 15px;
+			bottom: 15px;
+		}
+		.tex-parraf{
+			font-size: 13px;
+			width: 90%;
+		}
+		.titulito{
+			font-size: 16px;
+			text-align: center;
+		}

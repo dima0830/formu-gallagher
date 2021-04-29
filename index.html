@@ -1,336 +1,495 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <title></title>
-    <style type="text/css">
-        .box-gris{
-            background: #f9f9f9;
-            margin: 50px auto;
-            padding: 80px 0;
-        }
-        /* pills iconos colores ============= */
-        .ulpillsPY {
-            margin: 0;
-            padding: 0;
-            border-bottom: 1px solid #000;
-        }
-        .ulpillsPY li a {
-            text-decoration: none;
-        }
-        .ulpillsPY li a:focus .lnInt, .ulpillsPY li .active .lnInt {
-            opacity: 1;
-        }
-        .lnInt {
-            text-align: center;
-            display: block;
-            width: 80px;
-            height: 6px;
-            margin: 15px auto 0;
-            opacity: 0;
-            transition: 2s;
-        }
-        .box-listpy img{
-            display: block;
-            width: 25%;
-            margin: 20px auto;
-        }
-        .auto:focus img{
-           content: url(auto-03.svg);
-        }
-       .home:focus img{
-           content: url(home-2-03.svg);
-        }
-        .vida:focus img{
-           content: url(user-03.svg);
-        }
-        .box-listpy {
-            text-align: center;
-            padding: 10px 0 0;
-            margin-bottom: -4px;
-        }
-        .box-listpy p {
-            padding: 2px;
-            margin: 0;
-            font-size: 21px;
-            font-weight: 700;
-            text-align: center;
-            text-decoration: none;
-        }
-        .box-listpy span {
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            font-size: 19px;
-            font-weight: 500;
-            color: #A5A5A5;
-        }
-        .col1 {
-            color: #0c8caa;
-        }
-        .bcol1 {
-            background-color: #0c8caa;
-        }
-        .col2 {
-            color: #f9901c;
-        }
-        .bcol2 {
-            background-color: #f9901c;
-        }
-        .col3 {
-            color: #3e8942;
-        }
-        .bcol3 {
-            background-color: #3e8942;
-        }
-        .verde2pnfh {
-            color: #B4E800; 
-        }
-        .bckverde2pnfh {
-            background-color: #B4E800;  
-        }
-        .listpills {
-            list-style-image: url(../img/proyectos/list-morada.png);
-            margin-left: 30px;
-        }
-        .listpills li {
-            margin-bottom: 20px;
-            padding-left: 20px;
-        }
-        .contepill {
-            padding: 50px;
-            border: 0;
-        }
-        .borderlat3 {
-            border-left: 1px solid #707070;
-            padding-left: 26px;
-        }
-        .intGris1 {
-            color: #8FA1AC;
-        }
-        /* fin pills de colores */
-        /* Programa de Mercadeo y Comercialización */
-        .img1py {
-            position: absolute;
-            top: -59px;
-            left: -100px;
-            z-index: -1;
-            width: 550px;
-        }
-        .img1pypmfh {
-            position: absolute;
-            top: -80px;
-            left: -150px;
-            z-index: -1;
-            width: 550px;
-        }
-        /* Fin estilo titulo superior */
-        form{
-            display: block;
-            width: 50%;
-            margin: 20px auto;
-        }
-        form input, form select{
-            border-radius: 0 !important;
-            color: #034a51;
-        }
-        .box-w{
-             width: 80%;
-            margin: 40px auto;
-        }
-        .box-img{
-            width: 100%;
-            height: 300px;
-            overflow: hidden;
-            margin: 14px 0;
-            background-image: url(auto.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-        .icon {
-            position: fixed;
-            right: 15px;
-            bottom: 15px;
-        }
-    </style>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<title></title>
 </head>
 <body>
-    <img src="convenios.jpg" class="d-block w-100">
-    <div class="box-gris">
-        <section class="pc">
-          <div class="b-height45"></div>
-          <div class="container-fluid sinespa">
-            <ul class="row nav ulpillsPY" id="pills-tab" role="tablist">
-              <li class="nav-item col-sm-4 sinespa" role="presentation">
-                <a class="auto" id="pills-Invest-tab" data-toggle="pill" href="#pills-Invest" role="tab" aria-controls="pills-Invest" aria-selected="true">
-                  <div class="box-listpy">
-                    <img src="auto-g-03.svg" class="img-fluid">
-                    <p class="col1">Vehiculos</p>
-                    <span></span>
-                    <div class="lnInt bcol1"></div>
-                </div>
-            </a>
-        </li>
+<img src="assets/img/convenios.jpg" style="width: 100%;">
+	<div class="box-gris">
+		<section class="pc">
+			<div class="b-height45"></div>
+			<div class="container-fluid sinespa">
+				<ul class="row nav ulpillsPY" id="pills-tab" role="tablist">
+					<li class="nav-item col-sm-3 sinespa" role="presentation">
+						<a class="auto" id="pills-Invest-tab" data-toggle="pill" href="#pills-Invest" role="tab" aria-controls="pills-Invest" aria-selected="true">
+							<div class="box-listpy">
+								<img src="assets/img/auto-g-03.svg" class="img-fluid">
+								<p class="col1">Vehiculos</p>
+								<span></span>
+								<div class="lnInt bcol1"></div>
+							</div>
+						</a>
+					</li>
 
-        <li class="nav-item col-sm-4 sinespa" role="presentation">
-            <a class="home" id="pills-asist-tab" data-toggle="pill" href="#pills-asist" role="tab" aria-controls="pills-asist" aria-selected="false">
-              <div class="box-listpy">
-                <img src="home-03.svg" class="img-fluid">
-                <p class="col2">Hogar</p>
-                <span></span>
-                <div class="lnInt bcol2"></div>
-            </div>
-        </a>
-    </li>
+					<li class="nav-item col-sm-3 sinespa" role="presentation">
+						<a class="home" id="pills-asist-tab" data-toggle="pill" href="#pills-asist" role="tab" aria-controls="pills-asist" aria-selected="false">
+							<div class="box-listpy">
+								<img src="assets/img/home-03.svg" class="img-fluid">
+								<p class="col2">Hogar</p>
+								<span></span>
+								<div class="lnInt bcol2"></div>
+							</div>
+						</a>
+					</li>
 
-    <li class="nav-item col-sm-4 sinespa" role="presentation">
-        <a class="vida" id="pills-transf-tab" data-toggle="pill" href="#pills-transf" role="tab" aria-controls="pills-transf" aria-selected="false">
-          <div class="box-listpy">
-            <img src="user-g-03.svg" class="img-fluid">
-            <p class="col3">Vida</p>
-            <span></span>
-            <div class="lnInt bcol3"></div>
-        </div>
-    </a>
-</li>
+					<li class="nav-item col-sm-3 sinespa" role="presentation">
+						<a class="vida" id="pills-transf-tab" data-toggle="pill" href="#pills-transf" role="tab" aria-controls="pills-transf" aria-selected="false">
+							<div class="box-listpy">
+								<img src="assets/img/user-g-03.svg" class="img-fluid">
+								<p class="col3">Vida</p>
+								<span></span>
+								<div class="lnInt bcol3"></div>
+							</div>
+						</a>
+					</li>
 
-</ul>
+					<li class="nav-item col-sm-3 sinespa" role="presentation">
+						<a class="lce" id="pills-lce-tab" data-toggle="pill" href="#pills-lce" role="tab" aria-controls="pills-lce" aria-selected="false">
+							<div class="box-listpy">
+								<img src="assets/img/piloto-01.svg" class="img-fluid">
+								<p class="col4">Pérdida de Licencia:</p>
+								<span></span>
+								<div class="lnInt bcol4"></div>
+							</div>
+						</a>
+					</li>
 
-<div class="tab-content contepill" id="pills-tabContent">
-  <div class="tab-pane fade" id="pills-Invest" role="tabpanel" aria-labelledby="pills-Invest-tab">
-    <div class="container">
-        <div class="box-w">
-            <div class="box-img"></div>
-            <br>
-            <p>Lo más importante es cubrir todas las necesidades que se puedan presentar en la vía. Proteger tú patrimonio de cualquier suceso inesperado es indispensable para nosotros por eso permitimos escoger las coberturas que realmente se necesitan, brindando un producto a la medida. <p> 
-<div class="row">
-    <div class="col-sm-6">
-        <p>  ◉ Pérdida total daños <br>
-  ◉ Pérdida parcial daños<br>   
-  ◉ Pérdida total hurto <br>
- ◉ Pérdida parcial hurto  <br> 
-  ◉ Terremoto   <br>
-  ◉ Gastos de transporte por pérdida total daños o pérdida total  <br>  
-  ◉ Asistencia jurídica en proceso penal</p>
-    </div>
-    <div class="col-sm-6">
-        <p>◉ Asistencia jurídica en proceso civil <br>   
- ◉ Asistencia en viaje <br> 
- ◉ Protección patrimonial<br>  
- ◉ Conductor elegido (5 eventos por vigencia)<br>  
- ◉ Daño moral (Mediante sentencia Judicial) <br>   
- ◉ Daño a la vida de relación  <br>
- ◉ Conductor profesional (vehículos livianos de uso particular)</p>
-    </div>
-</div>
-<br>
-<p>Nos respaldan compañias de primer nivel, para seleccionar la mejor opcion para tus necesidades envianos los siguientes datos y en maximo 48 horas tendras la información:</p>
+				</ul>
 
-        </div>
-        <br>
-        <form class="form1">
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Cédula">
-            </div>
-            <div class="form-group">
-                <input placeholder="Fecha de nacimiento" class="form-control" type="text" onfocus="(this.type='date')" id="date">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Correo electronico">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Número de contacto">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Zona de circulación del Vehículo">
-            </div>
-            <div class="form-group">
-                <select class="form-control">
-                    <option>Prenda</option>
-                    <option>Si</option>
-                    <option>No</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlFile1">Foto de la tarjeta de propiedad (por ambos lados)</label>
-                <input type="file" class="form-control-file" id="exampleFormControlFile1">
-            </div>
-            <div style="float: right;">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
-    </div>
-</div>
+				<div class="tab-content contepill" id="pills-tabContent">
+					<div class="tab-pane fade" id="pills-Invest" role="tabpanel" aria-labelledby="pills-Invest-tab">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="box-img"></div>
+								</div>
+								<div class="col-sm-8">
+									<div class="box-w">
+										<p class="tex-parraf">Lo más importante es cubrir todas las necesidades que se puedan presentar en la vía. Proteger tú patrimonio de cualquier suceso inesperado es indispensable para nosotros por eso permitimos escoger las coberturas que realmente se necesitan, brindando un producto a la medida. </p> 
+										<div class="row">
+											<div class="col-sm-6">
+												<p class="tex-parraf">‣  Pérdida total daños <br>
+													‣ Pérdida parcial daños<br>   
+													‣ Pérdida total hurto <br>
+													‣ Pérdida parcial hurto  <br> 
+													‣ Terremoto   <br>
+													‣ Gastos de transporte por pérdida total daños  &nbsp;&nbsp;o pérdida total  <br>  
+												‣ Asistencia jurídica en proceso penal</p>
+											</div>
+											<div class="col-sm-6">
+												<p class="tex-parraf">
+													‣ Asistencia jurídica en proceso civil <br>   
+													‣ Asistencia en viaje <br> 
+													‣ Protección patrimonial<br>  
+													‣ Conductor elegido (5 eventos por vigencia)<br>  
+													‣ Daño moral (Mediante sentencia Judicial) <br>   
+													‣ Daño a la vida de relación  <br>
+												‣ Conductor profesional (vehículos livianos de uso particular)</p>
+											</div>
+										</div>
+										<br>
+										<p class="tex-parraf">Nos respaldan compañias de primer nivel, para seleccionar la mejor opcion para tus necesidades envianos los siguientes datos y en maximo 48 horas tendras la información:</p>
+									</div>
+								</div>
+							</div>
 
-<div class="tab-pane fade" id="pills-asist" role="tabpanel" aria-labelledby="pills-asist-tab">
-    <div class="container">
-     <form class="form1">
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Cédula">
-            </div>
-            <div class="form-group">
-                <input placeholder="Fecha de nacimiento" class="form-control" type="text" onfocus="(this.type='date')" id="date">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Correo electronico">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Número de contacto">
-            </div>
-            <div style="float: right;">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
-</div>
-</div>
+							<br>
+							<form class="form1">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Cédula">
+										</div>
+										<div class="form-group">
+											<input placeholder="Fecha de nacimiento" class="form-control" type="text" onfocus="(this.type='date')" id="date">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Correo electronico">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Número de contacto">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Zona de circulación del Vehículo">
+										</div>
+										<div class="form-group">
+											<select class="form-control">
+												<option>Prenda</option>
+												<option>Si</option>
+												<option>No</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="exampleFormControlFile1">Foto de la tarjeta de propiedad (por ambos lados)</label>
+											<input type="file" class="form-control-file" id="exampleFormControlFile1">
+										</div>
+										<div style="float: right;">
+											<button type="submit" class="btn btn-primary">Enviar</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
 
-<div class="tab-pane fade" id="pills-transf" role="tabpanel" aria-labelledby="pills-transf-tab">
-    <div class="container">
-      <form class="form1">
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Cédula">
-            </div>
-            <div class="form-group">
-                <input placeholder="Fecha de nacimiento" class="form-control" type="text" onfocus="(this.type='date')" id="date">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Correo electronico">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Número de contacto">
-            </div>
-            <div style="float: right;">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
-</div>
-</div>
-</div>
-</div>
-<div class="lnInt bcol1"></div></section>
+					<div class="tab-pane fade" id="pills-asist" role="tabpanel" aria-labelledby="pills-asist-tab">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="box-img-hogar"></div>
+								</div>
+								<div class="col-sm-8">
+									<div class="box-w">
+										<p class="tex-parraf">
+										En ODEAA no solo nos preocupamos por tu vida, lo hacemos por tu patrimonio. Presentamos seguro de Hogar y contenidos en dos modalidades:</p>
+										<p class="tex-parraf">Cobertura total, está diseñado para proteger tu casa contra todos los riesgos inherentes al inmueble como son por ejemplo, terremoto, incendio, inundación, etc., cobertura opcional de contenidos, Cobertura solo contenidos, en caso de que tu inmueble se encuentre asegurado a través de tu banco, los bienes como joyas, equipos electrónicos, TV´s, bicicletas etc., estarán asegurados contra los riesgos mencionados previamente e incluso robo dentro o fuera del predio serán objeto de esta cobertura, incluyendo diferentes modalidades de asistencia Algunas de las coberturas son:<br>
+										</p>
+										<div class="row">
+											<div class="col-sm-6">
+												<p class="tex-parraf">
+													‣ Incendio. <br>
+													​‣ Caída de rayo en el lugar asegurado. <br>
+													‣ Explosión. <br>
+													‣ Daños causados debido al humo. <br>
+													‣ Daños causados debido al granizo. <br>
+													‣ Daños causados a causa de inundación. <br>
+													‣ Deslizamiento, derrumbe o desprendimiento &nbsp;&nbsp;de tierra y roca. <br>
+													‣ Daños causados debido al agua en el interior &nbsp;&nbsp;de la vivienda. <br>
+													‣ Caída de aeronaves u objetos que caigan de &nbsp;&nbsp;&nbsp;ellas.<br>
+													‣ Huracán, ciclón, tifón o tornado.
+												</p>
+											</div>
+											<div class="col-sm-6">
+												<p class="tex-parraf">
+													
+													‣ Impacto de vehículos terrestres al hogar. <br>
+													‣ Rotura de vidrios, acrílicos, espejos y unidades &nbsp;&nbsp; sanitarias.<br>
+													‣ Asonada, motín, conmoción civil, huelga, actos &nbsp;&nbsp; malintencionados de terceros y terrorismo.<br>
+													‣ Terremoto, temblor de tierra, erupción &nbsp;&nbsp;&nbsp;volcánica, maremoto y tsunami.<br>
+													‣ Hurto con o sin violencia.<br>
+													‣ Daño interno a equipos eléctricos, electrónicos &nbsp;&nbsp; y a gas. <br>
+													‣ Protección de contenidos móviles fuera del &nbsp;&nbsp;&nbsp;lugar asegurado. <br>
+												‣ Responsabilidad Civil Extracontractual </p>
+											</div>
+										</div> 
+									</div>
+								</div>
+							</div>
+							<br>
+							<form class="form1">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Nombre">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Cedula">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Correo electrónico: ">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Numero de contactor">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Dirección del inmueble asegurar">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Ciudad del inmueble asegurar">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<select class="form-control">
+												<option>Ubicación</option>
+												<option>Urbano</option>
+												<option>Rural</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<select class="form-control">
+												<option>Casa</option>
+												<option>Apartamento</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<select class="form-control">
+												<option>Tipo de inmueble</option>
+												<option>Propia</option>
+												<option>Arrendada</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Estrato">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Número de pisos">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Metros">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Valor del inmueble">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Valor de los contenidos ">
+										</div>
+									</div>
+								</div>
+
+								<div style="float: right;">
+									<button type="submit" class="btn btn-primary">Enviar</button>
+								</div>
+							</form>
+						</div>
+					</div>
+
+				<div class="tab-pane fade" id="pills-transf" role="tabpanel" aria-labelledby="pills-transf-tab">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="box-img-vida"></div>
+							</div>
+							<div class="col-sm-8">
+								<div class="box-w">
+									<p class="tex-parraf">Tu futuro está seguro si está asegurado.  
+										No se trata de lo que necesitas, se trata de lo que tu familia necesita si ya no estas. 
+										Obtener y conservar tu independencia económica ante cualquier imprevisto es importante para ti, al igual que contar con un ahorro para cumplir sus sueños ​​​y los de sus seres queridos.​<br><br>
+									​​​​​​Disfruta los mejores momentos compartiendo la vida que desea con tus seres queridos. Cualquier persona desde los 14 años puede adquirir un seguro de vida con las coberturas que más se ajustan a su momento y estilo de vida.​​​​</p>
+									<p class="tex-parraf">Aseguramos tu vida y adicionalmente podemos estructurar un producto de vida + ahorro  para ayudarte a cumplir tus metas y necesidades de mediano y largo plazo. </p>
+									<p class="tex-parraf">Por eso te presentamos el Seguro de Vida o Seguro de Vida con Ahorro con las siguientes coberturas:</p>
+									<div class="row">
+										<div class="col-sm-6">
+											<p class="tex-parraf">
+												‣ Vida<br>
+												‣ Muerte Accidental<br>
+												‣ Invalidez o desmembración por accidente<br>
+												‣ Invalidez o desmembración por enfermedad
+											</p>
+										</div>
+										<div class="col-sm-6">
+											<p class="tex-parraf">
+												‣ Enfermedades Graves <br>
+												‣ Auxilio por fallecimiento.<br>
+											‣ Renta diaria por hospitalización y renta diaria &nbsp;&nbsp;por incapacidad temporal por accidente.</p>
+										</div>
+									</div> 
+								</div>
+							</div>
+						</div>
+						<br>
+						<form class="form1">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombres y Apellidos">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input placeholder="Fecha de nacimiento" class="form-control" type="text" onfocus="(this.type='date')" id="date">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="form-group">
+										<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Edad">
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="form-group">
+										<select class="form-control">
+											<option>-- Sexo --</option>
+											<option>Femenino</option>
+											<option>Masculino</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="form-group">
+										<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Peso">
+									</div>
+								</div>
+							</div>
+							<br>
+							<p class="titulito"><strong>Datos de los beneficiarios</strong></p>
+							<div class="div_row">
+								<hr>
+								<div class="clone_row">
+									<div class="row">
+										<div class="col-sm-6 form-group">
+											<select class="form-control">
+												<option>Tipo Beneficiario</option>
+											</select>
+										</div>
+										<div class="col-sm-6 form-group margen">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Nombre">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+
+										<div class="col-sm-6 margen">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Parentesco">
+											</div>
+										</div>	
+										<div class="col-sm-6 margen">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="porcentaje para beneficiario">
+											</div>
+										</div>											
+									</div>
+									<div class="clone_row_remove row"></div>
+									<hr>
+								</div>
+								<a href="#" class="addPasajeros add_clone_row"> +  Agregar Beneficiario</a>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Suma Asegurada ">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Correo electrónico">
+									</div>
+								</div>
+							</div>	
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Numero de contacto">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Dirección">
+									</div>
+								</div>
+							</div>
+							<div style="float: right;">
+								<button type="submit" class="btn btn-primary">Enviar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="pills-lce" role="tabpanel" aria-labelledby="pills-transf-lce">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="box-img-lce"></div>
+							</div>
+							<div class="col-sm-8">
+								<div class="box-w">
+									<p class="tex-parraf">En los últimos 10 años, 70 pilotos han perdido su licencia en Colombia de los cuales 15 de ellos han sido Capitanes de Avianca y tan solo tres (3) de ellos han tenido una póliza de pérdida de licencia contratada en Colombia, en ODEAA hemos pagado en los últimos cinco años más de $1.000´ a compañeros que por resolución de Aerocivil perdieron su licencia médica de vuelo, pero su incapacidad no calificaba para lograr ITP o pensionarse. 
+									</p>
+									<p class="tex-parraf">Nuestro programa ofrece el valor asegurado más alto del mercado en PL, por eso te invitamos a volar tranquilo, adquiriendo un seguro de vida con anexo de perdida de licencia el cual te proteja en caso de sufrir un incidente o enfermedad que te incapacite para ejercer tu profesión en el futuro.</p>
+									<p class="tex-parraf">Las principales coberturas son: </p>
+									<p class="tex-parraf"><strong>Muerte:</strong> muerte por cualquier causa, incluido suicidio, homicidio, terrorismo y SIDA, siempre que este último no sea pre-existente al ingreso del asegurado.</p>
+									<p class="tex-parraf"><strong>Pérdida de Licencia:</strong> Bajo el anexo de incapacidad total y permanente y como única cobertura perdida de licencia, la aseguradora pagará hasta el valor asegurado contratado la pérdida de licencia según las condiciones de la autoridad aeronáutica y una vez se emita la resolución de Pérdida de Licencia de la entidad.</p>
+								</div>
+							</div>
+						</div>
+						<br>
+						<p class="titulito"><strong>Información para cotizar:</strong></p>
+						<br>
+						<form class="form1">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="exampleFormControlFile1">Fotocopia de la cédula: </label>
+										<input type="file" class="form-control-file">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="exampleFormControlFile1">Fotocopia de la licencia médica:</label>
+										<input type="file" class="form-control-file">
+									</div>
+									<br>
+									<div style="float: right;">
+										<button type="submit" class="btn btn-primary">Enviar</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="lnInt bcol1">
+
+		</div>
+	</section>
 </div>
 <img src="whatsapp.png" class="img-fluid icon">
 
-<!-- Optional JavaScript; choose one of the two! -->
 
-<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+
+
+
+</form>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<script src="assets/js/stacktable.js"></script>
+<script src="assets/js/bootstrap-filestyle.min.js"></script>
+<script src="assets/js/bootstrap-datepicker.min.js"></script>
+<script src="assets/js/main.js" ></script>
 
 </body>
 </html>
